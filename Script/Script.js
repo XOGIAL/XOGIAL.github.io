@@ -1,12 +1,16 @@
 function educationbtn() {
     var x = document.getElementById("educationcontainerid");
-    if (x.style.height == "0px") {
+    if (x.style.height < "10px") {
       
-      x.style.height = "300px"
-      x.style.transition =".5s"
+      var thisheight = x.scrollHeight;
+
+      x.style.height = thisheight +'px';
+      x.style.transition ='.5s';
+      
+      
     } else {
         
-      x.style.transition =".5s"
+      x.style.transition =".5s"    
       x.style.height= "0px"
     }
   }
@@ -16,10 +20,12 @@ function educationbtn() {
     var x = document.getElementById("projectdropdowncontainerid");
     if (x.style.height < "10px") {
       
-      x.style.height = "500px"
+      var thisheight = x.scrollHeight;
+      x.style.display = "flex"
+      x.style.height = thisheight +'px';
       x.style.transition =".5s"
     } else {
-        
+      
       x.style.transition =".5s"
       x.style.height= "0px"
     }
@@ -27,12 +33,14 @@ function educationbtn() {
 
   function contactmebtn() {
     var x = document.getElementById("contactmedropdowncontainerid");
-    if (x.style.height < "10px") {
-      
-      x.style.height = "300px"
+    if (x.style.height < "5px") {
+     
+      var thisheight = x.scrollHeight;
+      x.style.display = "flex"
+      x.style.height = thisheight +'px';
       x.style.transition =".5s"
     } else {
-        
+      
       x.style.transition =".5s"
       x.style.height= "0px"
     }
