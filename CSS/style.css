@@ -473,3 +473,30 @@ html
     transform: scale(110%);
     transition: 1s;
 }
+
+/* ------------------------------------ */
+
+
+
+.projectgalery img
+{
+    width: 200px;
+    height: 400px;
+
+}
+
+.projectgalery img:hover
+{
+    transform: scale(120%);
+    transition: 0.5s;
+}
+
+.navycolor
+{
+    background-color: rgb(16, 29, 59);
+}
+
+.whitetext
+{
+    color: white;
+}

@@ -6,19 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Riksen Setiawan</title>
     <link rel="stylesheet" href="CSS/style.css">
-    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
     <div class="navbarcontainer">
-        <a href ="" class="navbaritem">Home</a>
+        <a href ="index.html" class="navbaritem">Home</a>
         <a href ="#aboutmecontainerid" class="navbaritem">About</a>
-        <a href ="" class="navbaritem">Project</a>
+        <a href ="project.html" class="navbaritem">Project</a>
         <a href ="" class="navbaritem" style="margin-right: 5%;">Contact me</a>
            
     </div>
 
 
-    <div class="headerimage">       
+    <div class="headerimage" data-aos="fade-up">       
         <span class="headerwelcome">Hello!</span>
         <span class="headerhello">My name is</span>
         <span class="headerhello" style="font-size: 3em;">Riksen Setiawan</span>
@@ -32,7 +33,7 @@
     </div>
 
 
-<div class="aboutmecontainer" id="aboutmecontainerid">
+<div class="aboutmecontainer" id="aboutmecontainerid" data-aos="fade-up">
     <div class="aboutmecontainerrow">
         <div class="aboutmecontainercolumn"> 
             <h1 class="aboutmetext">About Me</h1>
@@ -97,21 +98,21 @@
         <div class="projectdropdowncontainercolumn">
             <img src="Assets/figmalogo.png" alt="">
             <p>Mobile UI/UX Design</p>
-            <a href="">Learn More</a>
+            <a href="project.html">Learn More</a>
 
         </div>
         
         <div class="projectdropdowncontainercolumn">
             <img src="Assets/mobileicon.png" alt="">
             <p>Mobile Project</p>
-            <a href="">Learn More</a>
+            <a href="project.html">Learn More</a>
 
         </div>
 
         <div class="projectdropdowncontainercolumn">
             <img src="Assets/website.png" alt="">
             <p>Mockup Website</p>
-            <a href="">Learn More</a>
+            <a href="project.html">Learn More</a>
 
         </div>
 
@@ -145,6 +146,10 @@
 
 </div>
 
+
+<script>
+    AOS.init();
+  </script>
 <script src="JS/appjs.js" type="text/javascript"></script>
 </body>
 </html>
