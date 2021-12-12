@@ -496,6 +496,11 @@ html
     background-color: rgb(16, 29, 59);
 }
 
+.navytext
+{
+    color:rgb(16, 29, 59) ;
+}
+
 .whitetext
 {
     color: white;
