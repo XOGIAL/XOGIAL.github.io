@@ -48,7 +48,6 @@ function educationbtn() {
 
 
 
-
   document.getElementById("educationbtnid").addEventListener("click", function() {
     educationbtn();
   });
