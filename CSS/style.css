@@ -245,6 +245,7 @@ html
 {
     display: flex;
     flex-direction: column;
+    
     flex-wrap: wrap;
     margin-top: 20px;
     margin-left: 5%;
@@ -308,7 +309,7 @@ html
 .educationcontainer
 {
     
-    display: flex;
+    display: none;
     overflow: hidden;
     justify-content: space-evenly;
     
